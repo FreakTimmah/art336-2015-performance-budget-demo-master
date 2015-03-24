@@ -1,3 +1,4 @@
+// init jellyfish.js
 jellyfish.init({
     icon: 'img/loading.svg', // Image to display when image is loading
     offset: 0, // How far below fold to begin loading images

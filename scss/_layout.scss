@@ -1,7 +1,7 @@
 /* Layout.scss */
 
 nav[role="navigation"] {
-    max-width: 600px;
+    //max-width: 600px;
     position: fixed;
     text-align: center;
     top: 0;
@@ -11,11 +11,33 @@ nav[role="navigation"] {
     width: 100%;
 }
 
-header[role="banner"] {
-    margin: 100px 0 140px 0;
+header[role="banner"], main[role="main"] {
+        margin: 0 auto;
+        max-width: 1024px;
+        width: 100%;
+    
+    nav[role="banner"] {
+        position:static;
+        width: 100%;    
+    }
+    header[role="banner"] {
+        float: right;
+        width:40%
+    }
+    main[role="main"] {
+        width:60%
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+body {
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    }
 }
 
 .cafe, .food {
     margin-bottom: em(100px);
-    
 }

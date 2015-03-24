@@ -22,6 +22,9 @@ We will have 331kb to spend on our page. 331kb will take an average of 1 to 3 se
 - JavaScript
 
 ## Tips & Tools
+- <a href="https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/" target="_blank" title="CSS Tricks: Img Srcset">Img Srcset</a>
+- <a href="https://css-tricks.com/which-responsive-images-solution-should-you-use/" target="_blank" title="CSS Tricks: Which responsive images solution should you use?">Which responsive images solution should you use?</a>
+- <a href="http://scottjehl.github.io/picturefill/" target="_blank" title="Picturefill: A responsive image polyfill">Picturefill: A responsive image polyfill</a>
 - <a href="https://imageoptim.com/" target="_blank" title="ImageOptim">ImageOptim</a>
 - <a href="http://petercollingridge.appspot.com/svg-editor" target="_blank" title="Online SVG Editor">SVG Editor</a>
 - <a href="http://opensignal.com" target="_blank" title="Open Signal Website">Open Signal</a>
